@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     easySwipeMenuLayout.resetStatus();
                 }
             });
+            ((EasySwipeMenuLayout)helper.getView(R.id.es)).setScroller(false);
             helper.getView(R.id.content).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
