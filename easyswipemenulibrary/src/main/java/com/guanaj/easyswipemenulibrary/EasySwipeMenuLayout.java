@@ -47,7 +47,7 @@ public class EasySwipeMenuLayout extends ViewGroup {
     /**
      * 是否能滑动布局
      */
-    private boolean isScroller;
+    private boolean isScroller = true;
 
     public EasySwipeMenuLayout(Context context) {
         this(context, null);
